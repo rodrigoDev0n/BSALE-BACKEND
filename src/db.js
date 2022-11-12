@@ -14,4 +14,5 @@ export let pool = createPool ({
     database: DB,
     port: PORT,
     connectTimeout: 10000*6000,
+    connectionLimit: 10000*6000,
 });
